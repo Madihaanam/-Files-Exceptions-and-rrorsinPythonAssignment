@@ -1,0 +1,4 @@
+File1=open('sample.txt.py','r+')
+reading_file=file1.read()
+print(reading_file)
+file1.close()
