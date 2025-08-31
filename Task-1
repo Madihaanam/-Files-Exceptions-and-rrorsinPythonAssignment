@@ -1,4 +1,7 @@
-File1=open('sample.txt.py','r+')
-reading_file=file1.read()
-print(reading_file)
-file1.close()
+try:
+    File1=open('sample.txt.py','r+')
+    reading_file=File1.read()
+    print(reading_file)
+    File1.close()
+except FileNotFoundError:
+    print("Error: The file 'sample.txt' is not found")
