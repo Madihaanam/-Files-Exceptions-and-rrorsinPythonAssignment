@@ -6,4 +6,22 @@ Python program that:
 - Prints its content line by line.
 - Handles errors gracefully if the file does not exist.
 ### Example Output
+**If the file exists:**
+This is sample text file
+It contains multiple lines
+**If the file does not exist:**
+Error: The file 'my_File.txt.py' is not found
+## Task 2: Write and Append Data to a File
+ Python program that:
+- Takes user input and writes it to a file named output.txt.
+- Appends additional data to the same file.
+- Reads and displays the final content of the file.
+### Example Output
+Enter the text to write in the file: Hello, Python!
+Data is successfully entered to output.txt.
+Enter the additional text to append: Learning file handling in python.
+Data is successfully appended
+Final content of output file:
+Hello, Python!
+Learning file handling in python.
 
