@@ -24,4 +24,12 @@ Data is successfully appended
 Final content of output file:
 Hello, Python!
 Learning file handling in python.
+## How to Run These Scripts
+1. Download the .py files or clone the repository.
+2. Open terminal or command prompt.
+3. Run the scripts using:
+python Task-1.py
+python Task-2.py
+## Author
+Madiha Anam
 
